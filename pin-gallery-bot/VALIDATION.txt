@@ -1,0 +1,13 @@
+Direct Pinterest search update
+
+Automated validation: 15 tests passed using simulated HTML/network responses.
+Python compile check: passed.
+Search no longer requires an image-search API key. Only BOT_TOKEN is read.
+
+Live Pinterest test attempted: python3 bot.py --search-test "Moon h2"
+The execution environment reported that network approval was cancelled before
+a decision was returned. No live response was obtained. This build therefore
+does not claim a verified live Pinterest request.
+
+Live Telegram delivery was not tested because no bot token was supplied.
+Run --search-test and --check on your phone/server before normal use.
